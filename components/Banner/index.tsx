@@ -1,17 +1,32 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from 'react-bootstrap';
 import { Cover } from './styles';
 
 type Props = {
-    src: StaticImageData,
+    srcDesktop: StaticImageData,
+    srcMobile: StaticImageData,
     alt?: string,
 }
 
-const Banner: React.FC<Props> = ({ src, alt }) => {
+const Banner: React.FC<Props> = ({ srcDesktop, srcMobile, alt }) => {
     return (
         <Cover>
-            <Image id={"cover-img"} src={src} alt={alt} layout="responsive" />
+            <Image
+                className="hero__mobile-image"
+                src={srcMobile}
+                sizes="100vw"
+                alt={alt}
+                layout="fill"
+                objectFit="cover" 
+            />
+            <Image
+                className="hero__desktop-image"
+                src={srcDesktop}
+                sizes="80vw"
+                alt={alt}
+                layout="responsive"
+                objectFit="cover"
+            />
         </Cover>
     )
 }
