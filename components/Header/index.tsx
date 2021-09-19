@@ -2,16 +2,16 @@ import React from "react";
 import Image from "next/image";
 import { Container, Col, Row , Navbar, Nav} from 'react-bootstrap';
 import Social from '../Social';
-import { Header } from './styles';
+import { Menu } from './styles';
 
 type Props = {
     logo: StaticImageData,
     logoAlt: string,
 }
 
-const Banner: React.FC<Props> = ({ logo, logoAlt }) => {
+const Header: React.FC<Props> = ({ logo, logoAlt }) => {
     return (
-        <Header>
+        <Menu>
             <Container>
                 <Row className={"d-flex align-items-center"}>
                     <Col sm={12} lg={6}>
@@ -38,8 +38,8 @@ const Banner: React.FC<Props> = ({ logo, logoAlt }) => {
                     </Col>
                 </Row>
             </Container>
-        </Header>
+        </Menu>
     )
 }
 
-export default Banner;
+export default Header;

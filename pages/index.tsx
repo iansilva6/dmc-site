@@ -1,10 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from 'next';
+import Head from 'next/head';
 
 // Components
-import Header from '../components/Header';
-import Banner from '../components/Banner';
+import {Header, Banner, Footer, Map} from '../components';
 
 // Images
 import ImgCoverDesktop from '../assets/images/cover.webp';
@@ -33,6 +31,11 @@ const Home: NextPage = () => {
           srcDesktop={ImgCoverDesktop}
           srcMobile={ImgCoverMobile}
           alt="DMC"
+        />
+        <Map/>
+        <Footer
+          logo={Logo}
+          logoAlt="Duarte Matos e Carvalho"
         />
       </main>
     </div>

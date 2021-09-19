@@ -4,6 +4,7 @@ export const Social = styled.ul`
    display: flex;
    list-style: none;
    margin: 0px;
+   padding: 0px;
    @media(max-width: 992px) {
       display: none;
    }

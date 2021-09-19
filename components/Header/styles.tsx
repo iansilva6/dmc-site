@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Header = styled.header`
+export const Menu = styled.header`
     width: 100%;
     position: fixed;
     top: 0;
@@ -26,6 +26,7 @@ export const Header = styled.header`
     @media(max-width: 992px) {
         position: static;
         background-color: #292929;
+        border-bottom: 5px solid #eab71e;
         .navbar-collapse {
             background-color: #292929;
         }
