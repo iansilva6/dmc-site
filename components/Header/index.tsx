@@ -42,7 +42,7 @@ const Header: React.FC<Props> = ({ logo, logoAlt }) => {
                             </Container>
                         </Navbar>
                     </Col>
-                    <Col sm={12} lg={6} className={"d-flex justify-content-end"}>
+                    <Col sm={12} lg={6} className={"d-flex justify-content-end d-none d-lg-flex"}>
                         <Social />
                     </Col>
                 </Row>

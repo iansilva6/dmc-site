@@ -23,6 +23,9 @@ export const Menu = styled.header<{ scroll: number }>`
                 transition: 0.3s;
             }
         }
+        .active {
+            color: #fff!important;
+        }
     }
     @media(max-width: 992px) {
         position: static;
@@ -33,7 +36,6 @@ export const Menu = styled.header<{ scroll: number }>`
         }
         .nav-link {
             font-size: 18px;
-            margin-bottom: 5px;
         }
     }
 `;

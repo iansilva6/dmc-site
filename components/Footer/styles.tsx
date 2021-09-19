@@ -6,3 +6,21 @@ export const Rodape = styled.footer`
     padding: 50px 0px;
     border-top: 5px solid #eab71e;
 `;
+
+export const Phone = styled.a`
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    :hover {
+        color: #fff;
+    }
+`;
+
+export const Address = styled.address`
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+`;

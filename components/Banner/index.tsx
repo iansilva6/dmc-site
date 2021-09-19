@@ -10,7 +10,7 @@ type Props = {
 
 const Banner: React.FC<Props> = ({ srcDesktop, srcMobile, alt }) => {
     return (
-        <Cover>
+        <Cover id={"home"}>
             <Image
                 className="hero__mobile-image"
                 src={srcMobile}

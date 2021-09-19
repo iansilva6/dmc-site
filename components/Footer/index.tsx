@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Container, Col, Row} from 'react-bootstrap';
 import Social from '../Social';
-import { Rodape } from './styles';
+import { Rodape, Phone, Address } from './styles';
 
 type Props = {
     logo: StaticImageData,
@@ -14,11 +14,21 @@ const Footer: React.FC<Props> = ({ logo, logoAlt }) => {
         <Rodape>
             <Container>
                 <Row>
-                    <Col sm={6} className={"d-flex align-items-center mb-3"}>
+                    <Col xs={6} sm={6} className={"d-flex align-items-center mb-3"}>
                         <Image src={logo} alt={logoAlt} width="100" height="100" />
                     </Col>
-                    <Col sm={6} className={"d-flex align-items-center justify-content-end"}>
-                        <Social/>
+                    <Col xs={6} sm={6} className={"d-flex align-items-center justify-content-end"}>
+                        <Row>
+                            <Col sm={12} className={"d-flex align-items-center justify-content-end"}>
+                                <Social/>
+                            </Col>
+                            <Col sm={12} className={"d-flex align-items-center justify-content-end mt-3"}>
+                                <Phone href={"tel:+5571991977966"}><b>Telefone:</b> (71) 9 9197 7966</Phone>
+                            </Col>
+                            <Col sm={12} className={"d-flex align-items-center justify-content-end mt-3"}>
+                                <Address><b>Endereço:</b> R. Alberto Fiúsa, 82 - Imbuí,<br/>Salvador - BA, 41720-025, Brasil</Address>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
