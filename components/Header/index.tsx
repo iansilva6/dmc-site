@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { Container, Col, Row , Navbar, Nav} from 'react-bootstrap';
+import { Container, Col, Row, Navbar, Nav } from 'react-bootstrap';
 import Social from '../Social';
 import { Menu } from './styles';
 
@@ -10,8 +10,17 @@ type Props = {
 }
 
 const Header: React.FC<Props> = ({ logo, logoAlt }) => {
+
+    const [offset, setOffset] = useState(0);
+
+    useEffect(() => {
+        window.onscroll = () => {
+          setOffset(window.pageYOffset)
+        }
+    }, []);
+
     return (
-        <Menu>
+        <Menu scroll={offset}>
             <Container>
                 <Row className={"d-flex align-items-center"}>
                     <Col sm={12} lg={6}>
@@ -27,14 +36,14 @@ const Header: React.FC<Props> = ({ logo, logoAlt }) => {
                                         <Nav.Link href="#link">Sobre</Nav.Link>
                                         <Nav.Link href="#equipe">Equipe</Nav.Link>
                                         <Nav.Link href="#servicos">Serviços</Nav.Link>
-                                        <Nav.Link href="#contato">Contato</Nav.Link>
+                                        <Nav.Link href="#blog">Blog</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Container>
                         </Navbar>
                     </Col>
                     <Col sm={12} lg={6} className={"d-flex justify-content-end"}>
-                        <Social/>
+                        <Social />
                     </Col>
                 </Row>
             </Container>

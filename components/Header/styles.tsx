@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
-export const Menu = styled.header`
+export const Menu = styled.header<{ scroll: number }>`
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: ${props => props.scroll < 200 ? 'rgba(255, 255, 255, 0.1)' : '#292929'};
+    border-bottom: ${props => props.scroll < 200 ? '' : '5px solid #eab71e'};
     z-index: 999;
     box-shadow: 0px 1px 80px -16px rgba(0,0,0,0.75);
     backdrop-filter: saturate(180%) blur(5px);

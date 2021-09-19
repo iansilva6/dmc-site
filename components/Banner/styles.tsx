@@ -7,7 +7,7 @@ export const Cover = styled.div`
     overflow: hidden;
     background: rgba(0, 0, 0, 0.8);
     @media(max-width: 992px) {
-        height: 65vh;
+        height: 45vh;
     }
     .cover-img {
         width: 100%;

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { Social, Item } from './styles';
 import {FaWhatsapp, FaInstagram, FaFacebookF} from 'react-icons/fa'
 
