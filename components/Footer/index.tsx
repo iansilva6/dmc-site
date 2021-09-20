@@ -11,13 +11,13 @@ type Props = {
 
 const Footer: React.FC<Props> = ({ logo, logoAlt }) => {
     return (
-        <Rodape>
+        <Rodape id={"contato"}>
             <Container>
                 <Row>
-                    <Col xs={6} sm={6} className={"d-flex align-items-center mb-3"}>
+                    <Col xs={4} sm={6} className={"d-flex align-items-center mb-3"}>
                         <Image src={logo} alt={logoAlt} width="100" height="100" />
                     </Col>
-                    <Col xs={6} sm={6} className={"d-flex align-items-center justify-content-end"}>
+                    <Col xs={8} sm={6} className={"d-flex align-items-center justify-content-end"}>
                         <Row>
                             <Col sm={12} className={"d-flex align-items-center justify-content-end"}>
                                 <Social/>
@@ -26,7 +26,7 @@ const Footer: React.FC<Props> = ({ logo, logoAlt }) => {
                                 <Phone href={"tel:+5571991977966"}><b>Telefone:</b> (71) 9 9197 7966</Phone>
                             </Col>
                             <Col sm={12} className={"d-flex align-items-center justify-content-end mt-3"}>
-                                <Address><b>Endereço:</b> R. Alberto Fiúsa, 82 - Imbuí,<br/>Salvador - BA, 41720-025, Brasil</Address>
+                                <Address><b>Endereço:</b> R. Alberto Fiúsa, 82 - Imbuí, Salvador - BA, CEP: 41720-025, Brasil</Address>
                             </Col>
                         </Row>
                     </Col>

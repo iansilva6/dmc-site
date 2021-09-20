@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 
 // Components
-import {Header, Banner, Footer, Map, Whatsapp} from '../components';
+import {Header, Banner, Footer, Map, Whatsapp, About} from '../components';
 
 // Images
 import ImgCoverDesktop from '../assets/images/cover.webp';
@@ -28,6 +28,7 @@ const Home: NextPage = () => {
           srcMobile={ImgCoverMobile}
           alt="DMC"
         />
+        <About/>
         <Map/>
         <Footer
           logo={Logo}

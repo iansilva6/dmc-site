@@ -16,6 +16,9 @@ export const Phone = styled.a`
     :hover {
         color: #fff;
     }
+    @media(max-width: 992px) {
+        font-size: 14px;
+    }
 `;
 
 export const Address = styled.address`
@@ -23,4 +26,8 @@ export const Address = styled.address`
     color: #fff;
     font-size: 18px;
     text-align: right;
+    max-width: 300px;
+    @media(max-width: 992px) {
+        font-size: 14px;
+    }
 `;

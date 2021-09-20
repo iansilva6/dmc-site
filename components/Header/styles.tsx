@@ -9,6 +9,11 @@ export const Menu = styled.header<{ scroll: number }>`
     z-index: 999;
     box-shadow: 0px 1px 80px -16px rgba(0,0,0,0.75);
     backdrop-filter: saturate(180%) blur(5px);
+    transition: 0.5s;
+    .navbar-light .navbar-toggler {
+        color: #909090;
+        border-color: #909090;
+    }
     .navbar-nav {
         .nav-link {
             text-transform: uppercase;
@@ -31,6 +36,7 @@ export const Menu = styled.header<{ scroll: number }>`
         position: static;
         background-color: #292929;
         border-bottom: 5px solid #eab71e;
+        transition: 0.5s;
         .navbar-collapse {
             background-color: #292929;
         }

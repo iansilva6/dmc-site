@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Container, Col, Row, Navbar, Nav } from 'react-bootstrap';
 import Social from '../Social';
 import { Menu } from './styles';
+import {GiHamburgerMenu} from 'react-icons/gi';
 
 type Props = {
     logo: StaticImageData,
@@ -29,14 +30,17 @@ const Header: React.FC<Props> = ({ logo, logoAlt }) => {
                                 <Navbar.Brand href="#home">
                                     <Image id={"cover-img"} src={logo} alt={logoAlt} width="100" height="100" />
                                 </Navbar.Brand>
-                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                <Navbar.Toggle aria-controls="basic-navbar-nav">
+                                    <GiHamburgerMenu/>
+                                </Navbar.Toggle>
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="me-auto">
                                         <Nav.Link href="#home">Home</Nav.Link>
-                                        <Nav.Link href="#link">Sobre</Nav.Link>
+                                        <Nav.Link href="#sobre">Sobre</Nav.Link>
                                         <Nav.Link href="#equipe">Equipe</Nav.Link>
                                         <Nav.Link href="#servicos">Serviços</Nav.Link>
                                         <Nav.Link href="#blog">Blog</Nav.Link>
+                                        <Nav.Link href="#contato">Contato</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Container>
