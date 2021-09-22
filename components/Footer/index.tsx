@@ -26,7 +26,7 @@ const Footer: React.FC<Props> = ({ logo, logoAlt }) => {
                                 <Phone href={"tel:+5571991977966"}><b>Telefone:</b> (71) 9 9197 7966</Phone>
                             </Col>
                             <Col sm={12} className={"d-flex align-items-center justify-content-end mt-3"}>
-                                <Mail href={"mailto:duartematoscarvalhoadvogados@gmail.com"}><b>E-mail:</b> duartematoscarvalhoadvogados@gmail.com</Mail>
+                                <Mail href={"mailto:duartematoscarvalhoadvogados@gmail.com"}><b>E-mail:</b> duartematoscarvalho<br/>advogados@gmail.com</Mail>
                             </Col>
                             <Col sm={12} className={"d-flex align-items-center justify-content-end mt-3"}>
                                 <Address><b>Endereço:</b> R. Alberto Fiúsa, 82 - Imbuí, Salvador - BA, CEP: 41720-025, Brasil</Address>

@@ -6,6 +6,8 @@ import DireitoFamilia from '../../assets/images/direito-familia.webp';
 import DireitoDesportivo from '../../assets/images/direito-desportivo.webp';
 import DireitoPrevidenciario from '../../assets/images/direito-previdenciario.webp';
 import DireitoDigital from '../../assets/images/direito-digital.webp';
+import DireitoAdm from '../../assets/images/direito-adm.webp';
+import Juizado from '../../assets/images/juizado-especial.webp';
 
 type Props = {
 
@@ -85,7 +87,7 @@ const Services: React.FC<Props> = ({ }) => {
                     <Col sm={12} md={6} lg={4}>
                         <Cover>
                             <Image 
-                                src={DireitoDigital} 
+                                src={DireitoAdm} 
                                 alt={"Direito Público e Administrativo"} 
                                 layout="fill"
                                 objectFit="cover"
@@ -100,7 +102,7 @@ const Services: React.FC<Props> = ({ }) => {
                     <Col sm={12} md={6} lg={4}>
                         <Cover>
                             <Image 
-                                src={DireitoDigital} 
+                                src={Juizado} 
                                 alt={"Juizado Especial"} 
                                 layout="fill"
                                 objectFit="cover"

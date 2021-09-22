@@ -11,29 +11,39 @@ const Banner: React.FC<Props> = ({ }) => {
     return (
         <Social>
             <Item>
-                <FaWhatsapp
-                    size={28}
-                />
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5571991977966" target={"_blank"} rel={"noreferrer"}>
+                    <FaWhatsapp
+                        size={28}
+                    />
+                </a>
             </Item>
             <Item>
-                <FaInstagram
-                    size={28}
-                />
+                <a href="https://www.instagram.com/duartematoscarvalho/" target={"_blank"} rel={"noreferrer"}>
+                    <FaInstagram
+                        size={28}
+                    />
+                </a>
             </Item>
             <Item>
-                <FaFacebookF
-                    size={22}
-                />
+                <a href="https://www.facebook.com/duartematoscarvalho/" target={"_blank"} rel={"noreferrer"}>
+                    <FaFacebookF
+                        size={22}
+                    />
+                </a>
             </Item>
             <Item>
-                <FaPhoneAlt
-                    size={22}
-                />
+                <a href="tel:+5571991977966" target={"_blank"} rel={"noreferrer"}>
+                    <FaPhoneAlt
+                        size={22}
+                    />
+                </a>
             </Item>
             <Item>
-                <FiMail
-                    size={28}
-                />
+                <a href="mailto:duartematoscarvalhoadvogados@gmail.com" target={"_blank"} rel={"noreferrer"}>
+                    <FiMail
+                        size={28}
+                    />
+                </a>
             </Item>
         </Social>
     )

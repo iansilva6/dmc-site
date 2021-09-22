@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { SEOHeader } from "../components/SEO";
 
 // Components
 import {
@@ -20,11 +21,12 @@ import ImgCoverMobile from '../assets/images/cover-mb.webp';
 import Logo from '../assets/images/logo.webp';
 
 const Home: NextPage = () => {
+  
   return (
     <div>
       <Head>
+        <SEOHeader />
         <title>DMC - Advocacia e Consultoria</title>
-        <meta name="description" content="Direito da Família, Direito Esportivo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

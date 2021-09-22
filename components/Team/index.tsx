@@ -81,9 +81,9 @@ const Team: React.FC<Props> = ({ }) => {
                             </Col>
                             <Col sm={12}>
                                 <h3>José Carvalho</h3>
-                                <a href={"https://www.instagram.com/leonammatos/"} target={"_blank"} rel={"noreferrer"} className={"insta-user"}>
+                                <a href={"https://www.instagram.com/juniorcarvalho.adv/"} target={"_blank"} rel={"noreferrer"} className={"insta-user"}>
                                     <div className="insta-user">
-                                        @leonammatos
+                                        @juniorcarvalho.adv
                                     </div>
                                 </a>
                             </Col>
