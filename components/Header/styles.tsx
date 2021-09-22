@@ -22,6 +22,8 @@ export const Menu = styled.header<{ scroll: number }>`
             padding: 5px 10px;
             transition: 0.3s;
             border-radius: 10px;
+            letter-spacing: 1px;
+            font-size: 15px;
             :hover {
                 background-color: #565656;
                 color: #fff;
@@ -41,7 +43,7 @@ export const Menu = styled.header<{ scroll: number }>`
             background-color: #292929;
         }
         .nav-link {
-            font-size: 18px;
+            font-size: 18px!important;
         }
     }
 `;

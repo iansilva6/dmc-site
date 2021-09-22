@@ -5,3 +5,6 @@ export { default as Footer } from "./Footer";
 export { default as Map } from "./Map";
 export { default as Whatsapp } from "./Whatsapp";
 export { default as About } from "./About";
+export { default as Squad } from "./Squad";
+export { default as Team } from "./Team";
+export { default as Services } from "./Services";

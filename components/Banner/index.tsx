@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Cover } from './styles';
+import { Cover, Text } from './styles';
 
 type Props = {
     srcDesktop: StaticImageData,
@@ -27,6 +27,10 @@ const Banner: React.FC<Props> = ({ srcDesktop, srcMobile, alt }) => {
                 layout="responsive"
                 objectFit="cover"
             />
+            <Text>
+                <h1>DuarteMatos&Carvalho</h1>
+                <p>Sociedade de Advogados</p>
+            </Text>
         </Cover>
     )
 }

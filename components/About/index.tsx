@@ -13,7 +13,7 @@ const About: React.FC<Props> = ({ }) => {
         <Section id={"sobre"}>
             <Container>
                 <Row className={"row-eq-height"}>
-                    <Col sm={6}>
+                    <Col md={6}>
                         <Box>
                             <Icon>
                                 <BsFlag size={50}/>
@@ -22,7 +22,7 @@ const About: React.FC<Props> = ({ }) => {
                             <p>Nossa missão é otimizar resultados e dessa forma atender plenamente os interesses bem como as necessidades dos nossos clientes. Através da prestação de serviços advocatícios de alta qualidade, desenvolvidos com excelência técnica e pautados na ética, nos propomos a encontrar as melhores soluções jurídicas confiáveis para as nossas demandas.</p>
                         </Box>
                     </Col>
-                    <Col sm={6}>
+                    <Col md={6}>
                         <Box>
                             <Icon>
                                 <FaRegHandshake size={50}/>

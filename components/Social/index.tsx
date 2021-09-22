@@ -1,6 +1,7 @@
 import React from "react";
 import { Social, Item } from './styles';
 import {FaWhatsapp, FaInstagram, FaFacebookF, FaPhoneAlt} from 'react-icons/fa';
+import {FiMail} from 'react-icons/fi';
 
 type Props = {
 
@@ -27,6 +28,11 @@ const Banner: React.FC<Props> = ({ }) => {
             <Item>
                 <FaPhoneAlt
                     size={22}
+                />
+            </Item>
+            <Item>
+                <FiMail
+                    size={28}
                 />
             </Item>
         </Social>

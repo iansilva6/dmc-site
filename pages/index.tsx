@@ -2,7 +2,17 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 
 // Components
-import {Header, Banner, Footer, Map, Whatsapp, About} from '../components';
+import {
+  Header, 
+  Banner, 
+  Footer, 
+  Map, 
+  Whatsapp, 
+  About, 
+  Squad, 
+  Team,
+  Services
+} from '../components';
 
 // Images
 import ImgCoverDesktop from '../assets/images/cover.webp';
@@ -29,6 +39,9 @@ const Home: NextPage = () => {
           alt="DMC"
         />
         <About/>
+        <Squad/>
+        <Team/>
+        <Services/>
         <Map/>
         <Footer
           logo={Logo}

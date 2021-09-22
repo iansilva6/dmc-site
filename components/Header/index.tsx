@@ -28,7 +28,7 @@ const Header: React.FC<Props> = ({ logo, logoAlt }) => {
                         <Navbar expand="lg">
                             <Container>
                                 <Navbar.Brand href="#home">
-                                    <Image id={"cover-img"} src={logo} alt={logoAlt} width="100" height="100" />
+                                    <Image id={"cover-img"} className={"mt-1"} src={logo} alt={logoAlt} width="120" height="120" />
                                 </Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                                     <GiHamburgerMenu/>
