@@ -63,7 +63,7 @@ const Team: React.FC<Props> = ({ }) => {
                                 </a>
                             </Col>
                             <Col sm={12} className={"d-flex justify-content-center"}>
-                                <p>Leonam Matos, Advogado e Sócio da DuarteMatos&Carvalho, com atuação profissional dedicada ao segmento do Direito Desportivo, desempenha seu exercício especialmente no âmbito futebolístico, na assessoria jurídica para Agentes, Intermediários, Empresários e Atletas de futebol, na elaboração e análises de contratos de trabalho, representação, imagem, patrocínios e publicidade, bem como nas negociações e transferência entre clubes nacionais e internacionais.
+                                <p>Dr. Leonam Matos, Advogado e Sócio da DuarteMatos&Carvalho, com atuação profissional dedicada ao segmento do Direito Desportivo, desempenha seu exercício especialmente no âmbito futebolístico, na assessoria jurídica para Agentes, Intermediários, Empresários e Atletas de futebol, na elaboração e análises de contratos de trabalho, representação, imagem, patrocínios e publicidade, bem como nas negociações e transferência entre clubes nacionais e internacionais.
                                 Atualmente, grande parte da sua prática se relaciona também aos temas do Direito Público e Administrativo, inclusive na atuação preventiva e repressiva por intermédio da impetração de mandados de segurança e ações constitucionais, em face de atos ilícitos perpetrados pelo poder público.</p>
                             </Col>
                         </Row>
@@ -88,7 +88,7 @@ const Team: React.FC<Props> = ({ }) => {
                                 </a>
                             </Col>
                             <Col sm={12} className={"d-flex justify-content-center"}>
-                                <p>Dr. José Carvalho Junior, Advogado e Sócio da DuarteMatos&Carvalho, com atuação de destaque e vasta experiência no âmbito dos Juizados Especiais, Direito de Família e Direito Digital nas demandas de consumo online e no segmento inovador das startups.</p>
+                                <p>Dr. José Carvalho Júnior, Advogado inscrito nos quadros da Ordem dos Advogados do Brasil Seção Bahia sob o n° 54.292 e Sócio da Duarte Matos & Carvalho, atuante com ampla experiência nas áreas de Direito Imobiliário, Direito Bancário, Direito do Consumidor, Direito de Família e Direito Digital com atuação consultiva/preventiva e contenciosa.</p>
                             </Col>
                         </Row>
                     </Col>
